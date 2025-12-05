@@ -58,6 +58,7 @@ p{
 
 .container__fylo-container,.container__fylo-usage{
   border-radius: .5rem;
+  box-shadow: .5px .5px 150px rgb(40, 39, 39);
 }
 
 .container__fylo-container{
@@ -108,7 +109,13 @@ img{
 
 .fylo-usage__p{
   font-size: 1.1rem;
+  color: hsl(243, 100%, 93%);
 
+}
+
+.fylo-usage__gigabyte{
+  color: hsl(243, 100%, 93%);
+  font-weight: 700;
 }
 
 .fylo-usage__slider-container{
@@ -143,3 +150,10 @@ img{
   display: flex;
   justify-content: space-between;
 }
+
+.fylo-usage__gig-details{
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: hsl(243, 100%, 93%);
+}
+
