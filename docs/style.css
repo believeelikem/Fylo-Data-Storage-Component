@@ -80,6 +80,7 @@ p{
   top: 2.4rem;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .container__fylo-apps{
@@ -157,3 +158,40 @@ img{
   color: hsl(243, 100%, 93%);
 }
 
+.container__talk-bubble{
+  font-weight: 700;
+  font-size: 2.5rem;
+  background-color: white;
+  color: black;
+  position: absolute;
+  right: 2.5rem;
+  z-index: 5;
+  padding: 1rem .7rem;
+  border-radius: .5rem;
+  top: -3rem;
+  
+}
+
+.talk-bubble__gb{
+  font-size: .8rem;
+  display: inline-block;
+  
+  font-size: .8rem;
+  transform: translateY(-40%);
+  color: hsl(229, 7%, 55%);
+
+}
+
+.container__talk-bubble::after{
+  width: 0;
+  height: 0;
+  content: " ";
+  position: absolute;
+
+  border-width: 1.5rem;
+  border-style: solid;
+
+  border-color: transparent black transparent transparent;
+  bottom: -1.3rem;
+  /* right: ; */
+}
