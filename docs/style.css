@@ -191,7 +191,7 @@ img{
   border-width: 1.5rem;
   border-style: solid;
 
-  border-color: transparent black transparent transparent;
-  bottom: -1.3rem;
-  /* right: ; */
+  border-color: transparent white transparent transparent;
+  bottom: -1.5rem;
+  right: 0;
 }
