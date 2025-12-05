@@ -1,0 +1,145 @@
+/* raleway-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/raleway-v37-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/raleway-v37-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+  font-size: 1.4rem;
+}
+.container{
+  background-color: hsl(229, 57%, 11%);
+  height: 100vh;
+  font-family: "Raleway";
+  color: #ffffff;
+  position: relative;
+  z-index: -10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.container__background-image{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: calc(100vh/2);
+}
+
+.container__fylo-container,.container__fylo-usage{
+  position: relative;
+  z-index: 0;
+  background-color: hsl(228, 56%, 26%);
+  padding: 2.5rem;
+}
+
+.container__fylo-container,.container__fylo-usage{
+  border-radius: .5rem;
+}
+
+.container__fylo-container{
+  background-color: hsl(228, 56%, 26%);
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-top-right-radius: 50%;
+  top: 1.55rem;
+}
+
+.container__fylo-logo{
+  width: 9rem;
+}
+
+.container__fylo-usage{
+  width: 40rem;
+  top: 2.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.container__fylo-apps{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+img{
+  width: 1.6rem;
+}
+
+.container__fylo-app{
+  background-color: hsl(229, 57%, 11%);
+  border-radius: .7rem;
+  padding: .6rem;
+  
+}
+
+.container__fylo-app--document{
+  width: 1.1rem;
+}
+
+.container__fylo-app--folder{
+  width: 1.3rem;
+}
+
+.fylo-usage__p{
+  font-size: 1.1rem;
+
+}
+
+.fylo-usage__slider-container{
+  width: 100%;
+  height: 1.5rem;
+  background-color: hsl(229, 57%, 11%);
+  padding: .2rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.fylo-usage__slider{
+  width: 70%;
+  height: 100%;
+  background-image: linear-gradient(hsl(6, 100%, 80%),hsl(335, 100%, 65%));
+  border-radius: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.fylo-usage__slider-point{
+  height: 70%;
+  width: .9rem;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: .2rem;
+}
+
+.fylo-usage__gig-details{
+  display: flex;
+  justify-content: space-between;
+}

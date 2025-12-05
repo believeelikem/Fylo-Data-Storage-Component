@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preload" href="./fonts/outfit-v15-latin-600.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="./fonts/outfit-v15-latin-700.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+</head>
+<body>
+  <div class="container">
+    <img src="./images/bg-desktop.png" alt="" class="container__background-image">
+    <div class="container__fylo-container">
+      <img src="./images/logo.svg" alt="" class="container__fylo-logo">
+      <div class="container__fylo-apps">
+        <div class="container__fylo-app">
+          <img src="./images/icon-document.svg" alt="" class="container__fylo-app--document">
+        </div>
+        <div class="container__fylo-app">
+          <img src="./images/icon-folder.svg" alt="" class="container__fylo-app--folder">
+        </div>
+        <div class="container__fylo-app">
+          <img src="./images/icon-upload.svg" alt="" class="container__fylo-app--upload">
+        </div>
+      </div>
+    </div>
+
+    <div class="container__fylo-usage">
+      <p class="fylo-usage__p"> You’ve used <span class="fylo-usage__gigabyte">  815 GB</span>  of your storage </p>
+      <div class="fylo-usage__slider-container">
+        <div class="fylo-usage__slider">
+          <div class="fylo-usage__slider-point"></div>
+        </div>
+      </div>
+
+      <div class="fylo-usage__gig-details">
+        <p class="fylo-usage__gig-start">0 GB</p>
+        <p class="fylo-usage__gig-end">1000 GB</p>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
