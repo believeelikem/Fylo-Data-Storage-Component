@@ -239,4 +239,16 @@ img{
     width: 2.5rem;
     margin: .55rem .4rem;
   }
+
+  
+  .container__talk-bubble{
+    right: 50%;
+    top: 100%;
+    transform: translate(50%,-50%);
+  }
+
+  .container__talk-bubble::after{
+    border-color: transparent;
+  }
+
 }
