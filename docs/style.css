@@ -221,4 +221,22 @@ img{
     width: 85%;
     padding: 4rem;
   }  
+  .container__fylo-logo{
+    width: 11rem;
+  }
+  .container__fylo-app--document, .container__fylo-app--folder,.container__fylo-app--upload{
+    width: 2rem;
+  }
+
+  .container__fylo-app--document{
+    margin: .3rem .3rem;
+    }
+
+  .container__fylo-app--folder{
+    margin: .55rem .55rem;
+  }
+  .container__fylo-app--upload{
+    width: 2.5rem;
+    margin: .55rem .4rem;
+  }
 }
